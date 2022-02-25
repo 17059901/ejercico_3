@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ejercicio_3</string>
+    <string name="txtJugador">Jugador ha elegido</string>
+    <string name="txtCPU">Dispositivo ha elegido</string>
+    <string name="txtMarcador">Puntaje: Jugador 0 CPU 0</string>
+    <string name="btnPiedra">piedra</string>
+    <string name="btnPapel">papel</string>
+    <string name="btnTijera">tijera</string>
+    <string name="mensaje">turno</string>
+</resources>

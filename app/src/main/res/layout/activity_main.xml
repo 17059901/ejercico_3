@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF4A3"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtJugador"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imgJugador"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/txtJugador"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/jugador"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtCPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgJugador"
+        android:text="@string/txtCPU"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/imgCPU"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/txtCPU"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cpu"/>
+
+    <TextView
+        android:id="@+id/txtMarcador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgCPU"
+        android:text="@string/txtMarcador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+
+
+    <Button
+        android:id="@+id/btnPiedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPiedra"
+        android:layout_below="@id/txtMarcador"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnPapel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPapel"
+        android:layout_below="@id/txtMarcador"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnTijera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTijera"
+        android:layout_below="@id/txtMarcador"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
